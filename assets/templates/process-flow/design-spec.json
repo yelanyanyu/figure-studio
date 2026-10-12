@@ -1,0 +1,304 @@
+{
+  "id": "process-flow",
+  "title": "Process flow",
+  "canvas": {
+    "width": 1440,
+    "height": 900
+  },
+  "theme": {
+    "font": "Times New Roman",
+    "cjkFont": "PingFang SC",
+    "ink": "#203864",
+    "blue": "#31589A",
+    "green": "#009900",
+    "orange": "#914007",
+    "purple": "#AC43C4",
+    "paleBlue": "#D4DFF3",
+    "paleGreen": "#DDEED1",
+    "paleOrange": "#F8D1B5",
+    "palePurple": "#EEDBF2",
+    "background": "#FFFFFF",
+    "line": 2,
+    "gap": 40
+  },
+  "regions": [
+    {
+      "id": "heading",
+      "operations": [
+        {
+          "type": "shape",
+          "id": "process-flow-bg",
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900,
+          "shape": "rectangle",
+          "label": "",
+          "style": "shape=rectangle;rounded=0;fillColor=#FFFFFF;strokeColor=none;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;"
+        },
+        {
+          "type": "shape",
+          "id": "process-flow-title",
+          "x": 60,
+          "y": 35,
+          "width": 1320,
+          "height": 55,
+          "shape": "text",
+          "label": "Process flow",
+          "style": "shape=rectangle;rounded=0;fillColor=none;strokeColor=none;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontSize=40;fontColor=#203864;fontStyle=1;align=left;spacing=0;"
+        }
+      ]
+    },
+    {
+      "id": "intro",
+      "operations": [
+        {
+          "type": "shape",
+          "id": "process-intro",
+          "x": 60,
+          "y": 100,
+          "width": 1320,
+          "height": 38,
+          "shape": "text",
+          "label": "A layout for sequence, branching and an optional refinement layer.",
+          "style": "shape=rectangle;rounded=0;fillColor=none;strokeColor=none;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontSize=25;fontColor=#203864;fontStyle=0;align=left;spacing=0;"
+        }
+      ]
+    },
+    {
+      "id": "main-flow",
+      "operations": [
+        {
+          "type": "shape",
+          "id": "process-input",
+          "x": 90,
+          "y": 250,
+          "width": 240,
+          "height": 100,
+          "shape": "rounded",
+          "label": "Input / stage",
+          "style": "shape=rectangle;rounded=1;fillColor=#DDEED1;strokeColor=#203864;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontStyle=1;arcSize=12;"
+        },
+        {
+          "type": "shape",
+          "id": "process-decision",
+          "x": 490,
+          "y": 235,
+          "width": 190,
+          "height": 130,
+          "shape": "diamond",
+          "label": "Condition?",
+          "style": "shape=rhombus;rounded=0;fillColor=#D4DFF3;strokeColor=#203864;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontStyle=1;"
+        },
+        {
+          "type": "shape",
+          "id": "process-path-a",
+          "x": 1000,
+          "y": 180,
+          "width": 270,
+          "height": 95,
+          "shape": "rounded",
+          "label": "Path A / result",
+          "style": "shape=rectangle;rounded=1;fillColor=#F8D1B5;strokeColor=#203864;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontStyle=1;arcSize=12;"
+        },
+        {
+          "type": "shape",
+          "id": "process-path-b",
+          "x": 1000,
+          "y": 375,
+          "width": 270,
+          "height": 95,
+          "shape": "rounded",
+          "label": "Path B / result",
+          "style": "shape=rectangle;rounded=1;fillColor=#EEDBF2;strokeColor=#203864;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontStyle=1;arcSize=12;"
+        },
+        {
+          "type": "edge",
+          "id": "process-input-next",
+          "source": "process-input",
+          "target": "process-decision",
+          "color": "#31589A",
+          "width": 2.5,
+          "end_arrow": "block",
+          "style": "edgeStyle=none;rounded=0;endFill=1;",
+          "exit_x": 1,
+          "exit_y": 0.5,
+          "entry_x": 0,
+          "entry_y": 0.5
+        },
+        {
+          "type": "edge",
+          "id": "process-branch-a",
+          "source": "process-decision",
+          "target": "process-path-a",
+          "color": "#31589A",
+          "width": 2.5,
+          "end_arrow": "block",
+          "style": "edgeStyle=none;rounded=0;endFill=1;",
+          "exit_x": 1,
+          "exit_y": 0.5,
+          "entry_x": 0,
+          "entry_y": 0.5,
+          "waypoints": [
+            {
+              "x": 830,
+              "y": 300
+            },
+            {
+              "x": 830,
+              "y": 227.5
+            }
+          ]
+        },
+        {
+          "type": "edge",
+          "id": "process-branch-b",
+          "source": "process-decision",
+          "target": "process-path-b",
+          "color": "#31589A",
+          "width": 2.5,
+          "end_arrow": "block",
+          "style": "edgeStyle=none;rounded=0;endFill=1;",
+          "exit_x": 1,
+          "exit_y": 0.5,
+          "entry_x": 0,
+          "entry_y": 0.5,
+          "waypoints": [
+            {
+              "x": 830,
+              "y": 300
+            },
+            {
+              "x": 830,
+              "y": 422.5
+            }
+          ]
+        },
+        {
+          "type": "shape",
+          "id": "process-a-label",
+          "x": 850,
+          "y": 187,
+          "width": 140,
+          "height": 30,
+          "shape": "text",
+          "label": "Condition A",
+          "style": "shape=rectangle;rounded=0;fillColor=none;strokeColor=none;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontSize=22;fontColor=#203864;fontStyle=0;align=left;spacing=0;"
+        },
+        {
+          "type": "shape",
+          "id": "process-b-label",
+          "x": 850,
+          "y": 382,
+          "width": 140,
+          "height": 30,
+          "shape": "text",
+          "label": "Condition B",
+          "style": "shape=rectangle;rounded=0;fillColor=none;strokeColor=none;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontSize=22;fontColor=#203864;fontStyle=0;align=left;spacing=0;"
+        }
+      ]
+    },
+    {
+      "id": "refinement",
+      "operations": [
+        {
+          "type": "shape",
+          "id": "process-refinement-band",
+          "x": 60,
+          "y": 545,
+          "width": 410,
+          "height": 44,
+          "shape": "rectangle",
+          "label": "",
+          "style": "shape=rectangle;rounded=0;fillColor=#31589A;strokeColor=none;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;"
+        },
+        {
+          "type": "shape",
+          "id": "process-refinement-label",
+          "x": 74,
+          "y": 551,
+          "width": 382,
+          "height": 32,
+          "shape": "text",
+          "label": "Optional refinement layer",
+          "style": "shape=rectangle;rounded=0;fillColor=none;strokeColor=none;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontSize=26;fontColor=#FFFFFF;fontStyle=1;align=left;spacing=0;"
+        },
+        {
+          "type": "shape",
+          "id": "process-refine-Refine",
+          "x": 90,
+          "y": 675,
+          "width": 270,
+          "height": 95,
+          "shape": "rounded",
+          "label": "Refine",
+          "style": "shape=rectangle;rounded=1;fillColor=#EEDBF2;strokeColor=#203864;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontStyle=1;arcSize=12;"
+        },
+        {
+          "type": "shape",
+          "id": "process-refine-Validate",
+          "x": 540,
+          "y": 675,
+          "width": 270,
+          "height": 95,
+          "shape": "rounded",
+          "label": "Validate",
+          "style": "shape=rectangle;rounded=1;fillColor=#EEDBF2;strokeColor=#203864;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontStyle=1;arcSize=12;"
+        },
+        {
+          "type": "shape",
+          "id": "process-refine-Deliver",
+          "x": 990,
+          "y": 675,
+          "width": 270,
+          "height": 95,
+          "shape": "rounded",
+          "label": "Deliver",
+          "style": "shape=rectangle;rounded=1;fillColor=#EEDBF2;strokeColor=#203864;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontStyle=1;arcSize=12;"
+        },
+        {
+          "type": "edge",
+          "id": "process-refine-forward",
+          "source": "process-refine-Refine",
+          "target": "process-refine-Validate",
+          "color": "#31589A",
+          "width": 2.5,
+          "end_arrow": "block",
+          "style": "edgeStyle=none;rounded=0;endFill=1;",
+          "exit_x": 1,
+          "exit_y": 0.5,
+          "entry_x": 0,
+          "entry_y": 0.5
+        },
+        {
+          "type": "edge",
+          "id": "process-refine-finish",
+          "source": "process-refine-Validate",
+          "target": "process-refine-Deliver",
+          "color": "#31589A",
+          "width": 2.5,
+          "end_arrow": "block",
+          "style": "edgeStyle=none;rounded=0;endFill=1;",
+          "exit_x": 1,
+          "exit_y": 0.5,
+          "entry_x": 0,
+          "entry_y": 0.5
+        },
+        {
+          "type": "shape",
+          "id": "process-layer-note",
+          "x": 500,
+          "y": 550,
+          "width": 870,
+          "height": 38,
+          "shape": "text",
+          "label": "Add cross-layer links only where the workflow requires them.",
+          "style": "shape=rectangle;rounded=0;fillColor=none;strokeColor=none;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontSize=24;fontColor=#203864;fontStyle=0;align=left;spacing=0;"
+        }
+      ]
+    }
+  ],
+  "library_entries": [],
+  "raster": [],
+  "acceptance": "Editable primitives; every region and whole canvas requires audit plus screenshot; neutral placeholders; no scientific claim."
+}

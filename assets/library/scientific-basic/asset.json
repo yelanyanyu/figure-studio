@@ -1,0 +1,7 @@
+{
+  "id": "scientific-basic",
+  "kind": "style",
+  "description": "通用科研示意图起始样式；具体出版要求以目标期刊为准",
+  "license": "CC0-1.0",
+  "source": "figure-studio starter"
+}

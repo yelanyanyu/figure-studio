@@ -1,0 +1,361 @@
+{
+  "get_capabilities": {
+    "detection": {
+      "read_only": true,
+      "launched_drawio": false,
+      "active_canvas_modified": false,
+      "basis": [
+        "Scientific Illustrator tool catalog"
+      ]
+    },
+    "host": {
+      "platform": "darwin",
+      "executable": "/Applications/draw.io.app/Contents/MacOS/draw.io",
+      "executable_source": "DRAWIO_PATH",
+      "connected": false,
+      "graph_ready": false
+    },
+    "native_object_families": [
+      {
+        "family": "text_box",
+        "implementation": "editable text vertex",
+        "mcp_tool": "drawio_live_add_shape",
+        "mcp_available": true,
+        "preferred_for": [
+          "titles",
+          "labels",
+          "captions",
+          "paragraphs"
+        ]
+      },
+      {
+        "family": "auto_shape",
+        "implementation": "editable mxGraph vertex",
+        "mcp_tool": "drawio_live_add_shape",
+        "mcp_available": true,
+        "preferred_for": [
+          "boxes",
+          "symbols",
+          "flowchart nodes",
+          "panel containers"
+        ]
+      },
+      {
+        "family": "free_line_or_arrow",
+        "implementation": "editable edge with terminal points",
+        "mcp_tool": "drawio_live_add_line",
+        "mcp_available": true,
+        "preferred_for": [
+          "axes",
+          "ticks",
+          "separators",
+          "free arrows"
+        ]
+      },
+      {
+        "family": "attached_connector",
+        "implementation": "editable edge attached to source and target cells",
+        "mcp_tool": "drawio_live_add_edge",
+        "mcp_available": true,
+        "preferred_for": [
+          "semantic links that stay attached"
+        ]
+      },
+      {
+        "family": "table",
+        "implementation": "editable composite group of rectangle/text cells",
+        "mcp_tool": "drawio_live_add_table",
+        "layout_tool": "drawio_live_update_table_layout",
+        "mcp_available": true,
+        "preferred_for": [
+          "tables",
+          "matrix layouts",
+          "grid annotations"
+        ]
+      },
+      {
+        "family": "chart",
+        "implementation": "editable composite of axes, text, bars, markers, and edges",
+        "mcp_tool": "drawio_live_add_chart",
+        "mcp_available": true,
+        "supported_chart_types": [
+          "column_clustered",
+          "bar_clustered",
+          "line",
+          "scatter"
+        ]
+      },
+      {
+        "family": "picture_or_svg",
+        "implementation": "editable image vertex with serialized raster audit metadata",
+        "mcp_tool": "drawio_live_add_image",
+        "mcp_available": true,
+        "preferred_for": [
+          "tightly cropped microscopy",
+          "photographic texture",
+          "heatmaps",
+          "irreducible raster evidence"
+        ],
+        "restriction": "Never use for a whole panel containing reconstructable text, shapes, arrows, tables, charts, or legends."
+      },
+      {
+        "family": "duplicate",
+        "implementation": "deep mxGraph cell clone",
+        "mcp_tool": "drawio_live_duplicate_cell",
+        "mcp_available": true
+      },
+      {
+        "family": "group",
+        "implementation": "editable mxGraph group",
+        "mcp_tool": "drawio_live_group_cells",
+        "mcp_available": true
+      },
+      {
+        "family": "ungroup",
+        "implementation": "mxGraph ungroup",
+        "mcp_tool": "drawio_live_ungroup_cell",
+        "mcp_available": true
+      },
+      {
+        "family": "z_order",
+        "implementation": "parent child-order mutation",
+        "mcp_tool": "drawio_live_set_z_order",
+        "mcp_available": true
+      },
+      {
+        "family": "align",
+        "implementation": "exact model-coordinate alignment",
+        "mcp_tool": "drawio_live_align_cells",
+        "mcp_available": true
+      },
+      {
+        "family": "distribute",
+        "implementation": "equal-gap model-coordinate distribution",
+        "mcp_tool": "drawio_live_distribute_cells",
+        "mcp_available": true
+      },
+      {
+        "family": "figure_audit",
+        "implementation": "read-only renderer and graph-model audit",
+        "mcp_tool": "drawio_live_audit_figure",
+        "mcp_available": true
+      }
+    ],
+    "baseline_shapes": [
+      {
+        "plugin_name": "rectangle",
+        "mcp_available": true
+      },
+      {
+        "plugin_name": "rounded",
+        "mcp_available": true
+      },
+      {
+        "plugin_name": "ellipse",
+        "mcp_available": true
+      },
+      {
+        "plugin_name": "diamond",
+        "mcp_available": true
+      },
+      {
+        "plugin_name": "cylinder",
+        "mcp_available": true
+      },
+      {
+        "plugin_name": "hexagon",
+        "mcp_available": true
+      },
+      {
+        "plugin_name": "triangle",
+        "mcp_available": true
+      },
+      {
+        "plugin_name": "parallelogram",
+        "mcp_available": true
+      },
+      {
+        "plugin_name": "trapezoid",
+        "mcp_available": true
+      },
+      {
+        "plugin_name": "pentagon",
+        "mcp_available": true
+      },
+      {
+        "plugin_name": "star",
+        "mcp_available": true
+      },
+      {
+        "plugin_name": "document",
+        "mcp_available": true
+      },
+      {
+        "plugin_name": "note",
+        "mcp_available": true
+      },
+      {
+        "plugin_name": "cloud",
+        "mcp_available": true
+      },
+      {
+        "plugin_name": "text",
+        "mcp_available": true
+      },
+      {
+        "plugin_name": "swimlane",
+        "mcp_available": true
+      }
+    ],
+    "registered_shapes": [],
+    "registered_stencils": [],
+    "registered_markers": [],
+    "registered_edge_styles": [],
+    "registered_perimeters": [],
+    "mcp_coverage": {
+      "server_version": "1.5.4",
+      "tool_count": 26,
+      "tools": [
+        "drawio_live_add_chart",
+        "drawio_live_add_edge",
+        "drawio_live_add_image",
+        "drawio_live_add_line",
+        "drawio_live_add_shape",
+        "drawio_live_add_table",
+        "drawio_live_align_cells",
+        "drawio_live_audit_figure",
+        "drawio_live_clear",
+        "drawio_live_close_session",
+        "drawio_live_distribute_cells",
+        "drawio_live_draw_sequence",
+        "drawio_live_duplicate_cell",
+        "drawio_live_fit",
+        "drawio_live_get_capabilities",
+        "drawio_live_group_cells",
+        "drawio_live_inspect",
+        "drawio_live_launch",
+        "drawio_live_save_snapshot",
+        "drawio_live_screenshot",
+        "drawio_live_set_z_order",
+        "drawio_live_status",
+        "drawio_live_ungroup_cell",
+        "drawio_live_update_cell",
+        "drawio_live_update_table_cell",
+        "drawio_live_update_table_layout"
+      ],
+      "native_first_policy": "Use editable graph cells or editable composites for every reconstructable semantic object. Every image must be one atomic irreducible raster unit with a decomposition note and must pass drawio_live_audit_figure."
+    }
+  },
+  "launch": {
+    "connected": true,
+    "port": 9344,
+    "drawio": {
+      "executable": "/Applications/draw.io.app/Contents/MacOS/draw.io",
+      "source": "DRAWIO_PATH"
+    },
+    "spawned_process_id": 89524,
+    "target": {
+      "id": "B1C3728E7D4CB109231DDD41AF4A01DE",
+      "title": "",
+      "url": "file:///Applications/draw.io.app/Contents/Resources/app.asar/drawio/src/main/webapp/index.html?dev=0&test=0&gapi=0&db=0&od=0&gh=0&gl=0&tr=0&browser=0&picker=0&mode=device&export=https%3A%2F%2Fconvert.diagrams.net%2Fnode%2Fexport&disableUpdate=0&enableSpellCheck=1&enableStoreBkp=1&isGoogleFontsEnabled=0&appLang=zh-CN&autoUpdate=1"
+    },
+    "step_delay_ms": 150,
+    "status": {
+      "title": "未命名绘图 - draw.io",
+      "url": "file:///Applications/draw.io.app/Contents/Resources/app.asar/drawio/src/main/webapp/index.html?dev=0&test=0&gapi=0&db=0&od=0&gh=0&gl=0&tr=0&browser=0&picker=0&mode=device&export=https%3A%2F%2Fconvert.diagrams.net%2Fnode%2Fexport&disableUpdate=0&enableSpellCheck=1&enableStoreBkp=1&isGoogleFontsEnabled=0&appLang=zh-CN&autoUpdate=1",
+      "viewport": {
+        "width": 1200,
+        "height": 768
+      },
+      "graph_ready": true,
+      "control_scope": "draw.io graph API only",
+      "zoom_percent": 100,
+      "vertices": 0,
+      "edges": 0
+    }
+  },
+  "status": {
+    "connected": true,
+    "port": 9344,
+    "title": "未命名绘图 - draw.io",
+    "url": "file:///Applications/draw.io.app/Contents/Resources/app.asar/drawio/src/main/webapp/index.html?dev=0&test=0&gapi=0&db=0&od=0&gh=0&gl=0&tr=0&browser=0&picker=0&mode=device&export=https%3A%2F%2Fconvert.diagrams.net%2Fnode%2Fexport&disableUpdate=0&enableSpellCheck=1&enableStoreBkp=1&isGoogleFontsEnabled=0&appLang=zh-CN&autoUpdate=1",
+    "viewport": {
+      "width": 1200,
+      "height": 768
+    },
+    "graph_ready": true,
+    "control_scope": "draw.io graph API only",
+    "zoom_percent": 100,
+    "vertices": 0,
+    "edges": 0
+  },
+  "inspect": {
+    "cells": [],
+    "total": 0,
+    "truncated": false,
+    "zoom_percent": 100
+  },
+  "add_shape": {
+    "id": "export",
+    "label": "导出",
+    "geometry": {
+      "x": 780,
+      "y": 160,
+      "width": 180,
+      "height": 90,
+      "relative": false
+    },
+    "style": "rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F4F1;strokeColor=#247C72;fontColor=#173D38;fontSize=24;strokeWidth=2;",
+    "requested_shape": "rounded",
+    "resolved_shape": "label",
+    "shape_validation": "registered-or-baseline"
+  },
+  "add_edge": {
+    "id": "flow-2",
+    "source": "review",
+    "target": "export",
+    "label": "",
+    "style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endFill=1;strokeColor=#247C72;strokeWidth=2;endArrow=classic;exitX=1;exitY=0.5;entryX=0;entryY=0.5;"
+  },
+  "fit": {
+    "zoom_percent": 74
+  },
+  "audit_figure": {
+    "backend": "drawio",
+    "page_size": {
+      "width": 827,
+      "height": 1169,
+      "visible": true
+    },
+    "object_counts": {
+      "total": 7,
+      "vertices": 4,
+      "edges": 3,
+      "pictures": 0,
+      "native_or_composite": 7
+    },
+    "picture_audit": [],
+    "hard_failure_count": 1,
+    "warning_count": 0,
+    "findings_truncated": false,
+    "passed": false,
+    "findings": [
+      {
+        "category": "outside-page",
+        "severity": "hard",
+        "objects": [
+          "export"
+        ],
+        "evidence": "Bounds [780,160,180,90] exceed the current 827 x 1169 draw.io page.",
+        "correction": "Move or resize the named cell inside the page, or explicitly change the planned page size.",
+        "acceptance": "Every visible object remains inside the intended page within the alignment tolerance."
+      }
+    ],
+    "reviewer_contract": "Every hard finding must be converted by the Corrector into named geometry, routing, text-fit, or decomposition operations, executed by the Drawer, rerendered, and audited again."
+  },
+  "save_snapshot": {
+    "output_path": "/Users/yelanyanyu/code/figure-studio/projects/demo/figures/workflow-check/source.drawio",
+    "bytes": 2247,
+    "saved_from_visible_session": true
+  }
+}

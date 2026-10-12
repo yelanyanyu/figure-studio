@@ -1,0 +1,397 @@
+{
+  "id": "system-architecture",
+  "title": "System architecture",
+  "canvas": {
+    "width": 1440,
+    "height": 900
+  },
+  "theme": {
+    "font": "Times New Roman",
+    "cjkFont": "PingFang SC",
+    "ink": "#203864",
+    "blue": "#31589A",
+    "green": "#009900",
+    "orange": "#914007",
+    "purple": "#AC43C4",
+    "paleBlue": "#D4DFF3",
+    "paleGreen": "#DDEED1",
+    "paleOrange": "#F8D1B5",
+    "palePurple": "#EEDBF2",
+    "background": "#FFFFFF",
+    "line": 2,
+    "gap": 40
+  },
+  "regions": [
+    {
+      "id": "heading",
+      "operations": [
+        {
+          "type": "shape",
+          "id": "system-architecture-bg",
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900,
+          "shape": "rectangle",
+          "label": "",
+          "style": "shape=rectangle;rounded=0;fillColor=#FFFFFF;strokeColor=none;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;"
+        },
+        {
+          "type": "shape",
+          "id": "system-architecture-title",
+          "x": 60,
+          "y": 35,
+          "width": 1320,
+          "height": 55,
+          "shape": "text",
+          "label": "System architecture",
+          "style": "shape=rectangle;rounded=0;fillColor=none;strokeColor=none;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontSize=40;fontColor=#203864;fontStyle=1;align=left;spacing=0;"
+        }
+      ]
+    },
+    {
+      "id": "intro",
+      "operations": [
+        {
+          "type": "shape",
+          "id": "architecture-intro",
+          "x": 60,
+          "y": 100,
+          "width": 1320,
+          "height": 38,
+          "shape": "text",
+          "label": "Modules, layers and explicit interfaces.",
+          "style": "shape=rectangle;rounded=0;fillColor=none;strokeColor=none;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=0;whiteSpace=nowrap;align=center;verticalAlign=middle;spacing=8;fontSize=25;fontColor=#203864;fontStyle=0;align=left;spacing=0;"
+        }
+      ]
+    },
+    {
+      "id": "interfaces",
+      "operations": [
+        {
+          "type": "shape",
+          "id": "architecture-interface-bg",
+          "x": 60,
+          "y": 165,
+          "width": 1320,
+          "height": 150,
+          "shape": "rounded",
+          "label": "",
+          "style": "shape=rectangle;rounded=1;fillColor=#EFF3FA;strokeColor=none;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;"
+        },
+        {
+          "type": "shape",
+          "id": "architecture-interface-title",
+          "x": 85,
+          "y": 210,
+          "width": 220,
+          "height": 45,
+          "shape": "text",
+          "label": "Interface",
+          "style": "shape=rectangle;rounded=0;fillColor=none;strokeColor=none;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontSize=30;fontColor=#31589A;fontStyle=1;align=left;spacing=0;"
+        },
+        {
+          "type": "shape",
+          "id": "architecture-interface-Client",
+          "x": 350,
+          "y": 210,
+          "width": 250,
+          "height": 70,
+          "shape": "rounded",
+          "label": "Client",
+          "style": "shape=rectangle;rounded=1;fillColor=#D4DFF3;strokeColor=#203864;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontStyle=1;arcSize=12;"
+        },
+        {
+          "type": "shape",
+          "id": "architecture-interface-API",
+          "x": 690,
+          "y": 210,
+          "width": 250,
+          "height": 70,
+          "shape": "rounded",
+          "label": "API",
+          "style": "shape=rectangle;rounded=1;fillColor=#D4DFF3;strokeColor=#203864;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontStyle=1;arcSize=12;"
+        },
+        {
+          "type": "shape",
+          "id": "architecture-interface-Operator",
+          "x": 1030,
+          "y": 210,
+          "width": 250,
+          "height": 70,
+          "shape": "rounded",
+          "label": "Operator",
+          "style": "shape=rectangle;rounded=1;fillColor=#D4DFF3;strokeColor=#203864;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontStyle=1;arcSize=12;"
+        }
+      ]
+    },
+    {
+      "id": "modules",
+      "operations": [
+        {
+          "type": "shape",
+          "id": "architecture-module-bg",
+          "x": 60,
+          "y": 365,
+          "width": 1320,
+          "height": 200,
+          "shape": "rounded",
+          "label": "",
+          "style": "shape=rectangle;rounded=1;fillColor=#EFF7E9;strokeColor=none;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;"
+        },
+        {
+          "type": "shape",
+          "id": "architecture-module-title",
+          "x": 85,
+          "y": 425,
+          "width": 220,
+          "height": 45,
+          "shape": "text",
+          "label": "Application",
+          "style": "shape=rectangle;rounded=0;fillColor=none;strokeColor=none;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontSize=30;fontColor=#009900;fontStyle=1;align=left;spacing=0;"
+        },
+        {
+          "type": "shape",
+          "id": "architecture-module-0",
+          "x": 350,
+          "y": 420,
+          "width": 250,
+          "height": 90,
+          "shape": "rounded",
+          "label": "Module A",
+          "style": "shape=rectangle;rounded=1;fillColor=#DDEED1;strokeColor=#203864;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontStyle=1;arcSize=12;"
+        },
+        {
+          "type": "shape",
+          "id": "architecture-module-1",
+          "x": 690,
+          "y": 420,
+          "width": 250,
+          "height": 90,
+          "shape": "rounded",
+          "label": "Module B",
+          "style": "shape=rectangle;rounded=1;fillColor=#DDEED1;strokeColor=#203864;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontStyle=1;arcSize=12;"
+        },
+        {
+          "type": "shape",
+          "id": "architecture-module-2",
+          "x": 1030,
+          "y": 420,
+          "width": 250,
+          "height": 90,
+          "shape": "rounded",
+          "label": "Module C",
+          "style": "shape=rectangle;rounded=1;fillColor=#DDEED1;strokeColor=#203864;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontStyle=1;arcSize=12;"
+        },
+        {
+          "type": "edge",
+          "id": "architecture-module-link-0",
+          "source": "architecture-module-0",
+          "target": "architecture-module-1",
+          "color": "#31589A",
+          "width": 2.5,
+          "end_arrow": "block",
+          "style": "edgeStyle=none;rounded=0;endFill=1;",
+          "exit_x": 1,
+          "exit_y": 0.5,
+          "entry_x": 0,
+          "entry_y": 0.5
+        },
+        {
+          "type": "edge",
+          "id": "architecture-module-link-1",
+          "source": "architecture-module-1",
+          "target": "architecture-module-2",
+          "color": "#31589A",
+          "width": 2.5,
+          "end_arrow": "block",
+          "style": "edgeStyle=none;rounded=0;endFill=1;",
+          "exit_x": 1,
+          "exit_y": 0.5,
+          "entry_x": 0,
+          "entry_y": 0.5
+        },
+        {
+          "type": "edge",
+          "id": "architecture-interface-link-Client",
+          "source": "architecture-interface-Client",
+          "target": "architecture-module-0",
+          "color": "#31589A",
+          "width": 2.5,
+          "end_arrow": "block",
+          "style": "edgeStyle=none;rounded=0;endFill=1;",
+          "exit_x": 0.5,
+          "exit_y": 1,
+          "entry_x": 0.5,
+          "entry_y": 0
+        },
+        {
+          "type": "edge",
+          "id": "architecture-interface-link-API",
+          "source": "architecture-interface-API",
+          "target": "architecture-module-1",
+          "color": "#31589A",
+          "width": 2.5,
+          "end_arrow": "block",
+          "style": "edgeStyle=none;rounded=0;endFill=1;",
+          "exit_x": 0.5,
+          "exit_y": 1,
+          "entry_x": 0.5,
+          "entry_y": 0
+        },
+        {
+          "type": "edge",
+          "id": "architecture-interface-link-Operator",
+          "source": "architecture-interface-Operator",
+          "target": "architecture-module-2",
+          "color": "#31589A",
+          "width": 2.5,
+          "end_arrow": "block",
+          "style": "edgeStyle=none;rounded=0;endFill=1;",
+          "exit_x": 0.5,
+          "exit_y": 1,
+          "entry_x": 0.5,
+          "entry_y": 0
+        }
+      ]
+    },
+    {
+      "id": "stores",
+      "operations": [
+        {
+          "type": "shape",
+          "id": "architecture-data-bg",
+          "x": 60,
+          "y": 615,
+          "width": 1320,
+          "height": 190,
+          "shape": "rounded",
+          "label": "",
+          "style": "shape=rectangle;rounded=1;fillColor=#FFF1E7;strokeColor=none;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;"
+        },
+        {
+          "type": "shape",
+          "id": "architecture-data-title",
+          "x": 85,
+          "y": 673,
+          "width": 225,
+          "height": 45,
+          "shape": "text",
+          "label": "Data / resources",
+          "style": "shape=rectangle;rounded=0;fillColor=none;strokeColor=none;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontSize=29;fontColor=#914007;fontStyle=1;align=left;spacing=0;"
+        },
+        {
+          "type": "shape",
+          "id": "architecture-store-0-container",
+          "x": 350,
+          "y": 650,
+          "width": 250,
+          "height": 120,
+          "shape": "cylinder",
+          "label": "",
+          "style": "shape=cylinder3;rounded=0;fillColor=#F8D1B5;strokeColor=#203864;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;boundedLbl=1;backgroundOutline=1;size=15;"
+        },
+        {
+          "type": "shape",
+          "id": "architecture-store-0-label",
+          "x": 362,
+          "y": 692,
+          "width": 226,
+          "height": 35,
+          "shape": "text",
+          "label": "Resource A",
+          "style": "shape=rectangle;rounded=0;fillColor=none;strokeColor=none;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontSize=27;fontColor=#203864;fontStyle=1;align=center;spacing=0;"
+        },
+        {
+          "type": "edge",
+          "id": "architecture-store-link-0",
+          "source": "architecture-module-0",
+          "target": "architecture-store-0-container",
+          "color": "#31589A",
+          "width": 2.5,
+          "end_arrow": "block",
+          "style": "edgeStyle=none;rounded=0;endFill=1;",
+          "exit_x": 0.5,
+          "exit_y": 1,
+          "entry_x": 0.5,
+          "entry_y": 0
+        },
+        {
+          "type": "shape",
+          "id": "architecture-store-1-container",
+          "x": 690,
+          "y": 650,
+          "width": 250,
+          "height": 120,
+          "shape": "cylinder",
+          "label": "",
+          "style": "shape=cylinder3;rounded=0;fillColor=#F8D1B5;strokeColor=#203864;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;boundedLbl=1;backgroundOutline=1;size=15;"
+        },
+        {
+          "type": "shape",
+          "id": "architecture-store-1-label",
+          "x": 702,
+          "y": 692,
+          "width": 226,
+          "height": 35,
+          "shape": "text",
+          "label": "Resource B",
+          "style": "shape=rectangle;rounded=0;fillColor=none;strokeColor=none;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontSize=27;fontColor=#203864;fontStyle=1;align=center;spacing=0;"
+        },
+        {
+          "type": "edge",
+          "id": "architecture-store-link-1",
+          "source": "architecture-module-1",
+          "target": "architecture-store-1-container",
+          "color": "#31589A",
+          "width": 2.5,
+          "end_arrow": "block",
+          "style": "edgeStyle=none;rounded=0;endFill=1;",
+          "exit_x": 0.5,
+          "exit_y": 1,
+          "entry_x": 0.5,
+          "entry_y": 0
+        },
+        {
+          "type": "shape",
+          "id": "architecture-store-2-container",
+          "x": 1030,
+          "y": 650,
+          "width": 250,
+          "height": 120,
+          "shape": "cylinder",
+          "label": "",
+          "style": "shape=cylinder3;rounded=0;fillColor=#F8D1B5;strokeColor=#203864;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;boundedLbl=1;backgroundOutline=1;size=15;"
+        },
+        {
+          "type": "shape",
+          "id": "architecture-store-2-label",
+          "x": 1042,
+          "y": 692,
+          "width": 226,
+          "height": 35,
+          "shape": "text",
+          "label": "Resource C",
+          "style": "shape=rectangle;rounded=0;fillColor=none;strokeColor=none;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;fontColor=#203864;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;spacing=8;fontSize=27;fontColor=#203864;fontStyle=1;align=center;spacing=0;"
+        },
+        {
+          "type": "edge",
+          "id": "architecture-store-link-2",
+          "source": "architecture-module-2",
+          "target": "architecture-store-2-container",
+          "color": "#31589A",
+          "width": 2.5,
+          "end_arrow": "block",
+          "style": "edgeStyle=none;rounded=0;endFill=1;",
+          "exit_x": 0.5,
+          "exit_y": 1,
+          "entry_x": 0.5,
+          "entry_y": 0
+        }
+      ]
+    }
+  ],
+  "library_entries": [],
+  "raster": [],
+  "acceptance": "Editable primitives; every region and whole canvas requires audit plus screenshot; neutral placeholders; no scientific claim."
+}

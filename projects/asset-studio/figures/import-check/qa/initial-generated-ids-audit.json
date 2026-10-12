@@ -1,0 +1,339 @@
+{
+  "backend": "drawio",
+  "page_size": {
+    "width": 1440,
+    "height": 1400,
+    "visible": true
+  },
+  "object_counts": {
+    "total": 71,
+    "vertices": 52,
+    "edges": 19,
+    "pictures": 0,
+    "native_or_composite": 71
+  },
+  "picture_audit": [],
+  "hard_failure_count": 18,
+  "warning_count": 2,
+  "findings_truncated": false,
+  "passed": false,
+  "findings": [
+    {
+      "category": "connector-path-through-object",
+      "severity": "hard",
+      "objects": [
+        "2i0BFrOsrDYo9ZeF6Yqb-3",
+        "2i0BFrOsrDYo9ZeF6Yqb-2"
+      ],
+      "evidence": "The rendered route of '2i0BFrOsrDYo9ZeF6Yqb-3' passes through the interior of unrelated cell '2i0BFrOsrDYo9ZeF6Yqb-2'.",
+      "correction": "Move the cell or reroute the edge with explicit entry/exit points and waypoints in a reserved connector lane.",
+      "acceptance": "No connector segment intersects an unrelated cell or label interior."
+    },
+    {
+      "category": "connector-path-through-object",
+      "severity": "hard",
+      "objects": [
+        "2i0BFrOsrDYo9ZeF6Yqb-4",
+        "2i0BFrOsrDYo9ZeF6Yqb-2"
+      ],
+      "evidence": "The rendered route of '2i0BFrOsrDYo9ZeF6Yqb-4' passes through the interior of unrelated cell '2i0BFrOsrDYo9ZeF6Yqb-2'.",
+      "correction": "Move the cell or reroute the edge with explicit entry/exit points and waypoints in a reserved connector lane.",
+      "acceptance": "No connector segment intersects an unrelated cell or label interior."
+    },
+    {
+      "category": "connector-path-through-object",
+      "severity": "hard",
+      "objects": [
+        "2i0BFrOsrDYo9ZeF6Yqb-5",
+        "2i0BFrOsrDYo9ZeF6Yqb-2"
+      ],
+      "evidence": "The rendered route of '2i0BFrOsrDYo9ZeF6Yqb-5' passes through the interior of unrelated cell '2i0BFrOsrDYo9ZeF6Yqb-2'.",
+      "correction": "Move the cell or reroute the edge with explicit entry/exit points and waypoints in a reserved connector lane.",
+      "acceptance": "No connector segment intersects an unrelated cell or label interior."
+    },
+    {
+      "category": "connector-path-through-object",
+      "severity": "hard",
+      "objects": [
+        "2i0BFrOsrDYo9ZeF6Yqb-8",
+        "2i0BFrOsrDYo9ZeF6Yqb-2"
+      ],
+      "evidence": "The rendered route of '2i0BFrOsrDYo9ZeF6Yqb-8' passes through the interior of unrelated cell '2i0BFrOsrDYo9ZeF6Yqb-2'.",
+      "correction": "Move the cell or reroute the edge with explicit entry/exit points and waypoints in a reserved connector lane.",
+      "acceptance": "No connector segment intersects an unrelated cell or label interior."
+    },
+    {
+      "category": "connector-path-through-object",
+      "severity": "hard",
+      "objects": [
+        "2i0BFrOsrDYo9ZeF6Yqb-11",
+        "2i0BFrOsrDYo9ZeF6Yqb-10"
+      ],
+      "evidence": "The rendered route of '2i0BFrOsrDYo9ZeF6Yqb-11' passes through the interior of unrelated cell '2i0BFrOsrDYo9ZeF6Yqb-10'.",
+      "correction": "Move the cell or reroute the edge with explicit entry/exit points and waypoints in a reserved connector lane.",
+      "acceptance": "No connector segment intersects an unrelated cell or label interior."
+    },
+    {
+      "category": "connector-path-through-object",
+      "severity": "hard",
+      "objects": [
+        "2i0BFrOsrDYo9ZeF6Yqb-12",
+        "2i0BFrOsrDYo9ZeF6Yqb-10"
+      ],
+      "evidence": "The rendered route of '2i0BFrOsrDYo9ZeF6Yqb-12' passes through the interior of unrelated cell '2i0BFrOsrDYo9ZeF6Yqb-10'.",
+      "correction": "Move the cell or reroute the edge with explicit entry/exit points and waypoints in a reserved connector lane.",
+      "acceptance": "No connector segment intersects an unrelated cell or label interior."
+    },
+    {
+      "category": "connector-path-through-object",
+      "severity": "hard",
+      "objects": [
+        "2i0BFrOsrDYo9ZeF6Yqb-13",
+        "2i0BFrOsrDYo9ZeF6Yqb-10"
+      ],
+      "evidence": "The rendered route of '2i0BFrOsrDYo9ZeF6Yqb-13' passes through the interior of unrelated cell '2i0BFrOsrDYo9ZeF6Yqb-10'.",
+      "correction": "Move the cell or reroute the edge with explicit entry/exit points and waypoints in a reserved connector lane.",
+      "acceptance": "No connector segment intersects an unrelated cell or label interior."
+    },
+    {
+      "category": "connector-path-through-object",
+      "severity": "hard",
+      "objects": [
+        "2i0BFrOsrDYo9ZeF6Yqb-16",
+        "2i0BFrOsrDYo9ZeF6Yqb-10"
+      ],
+      "evidence": "The rendered route of '2i0BFrOsrDYo9ZeF6Yqb-16' passes through the interior of unrelated cell '2i0BFrOsrDYo9ZeF6Yqb-10'.",
+      "correction": "Move the cell or reroute the edge with explicit entry/exit points and waypoints in a reserved connector lane.",
+      "acceptance": "No connector segment intersects an unrelated cell or label interior."
+    },
+    {
+      "category": "connector-path-through-object",
+      "severity": "hard",
+      "objects": [
+        "2i0BFrOsrDYo9ZeF6Yqb-19",
+        "2i0BFrOsrDYo9ZeF6Yqb-18"
+      ],
+      "evidence": "The rendered route of '2i0BFrOsrDYo9ZeF6Yqb-19' passes through the interior of unrelated cell '2i0BFrOsrDYo9ZeF6Yqb-18'.",
+      "correction": "Move the cell or reroute the edge with explicit entry/exit points and waypoints in a reserved connector lane.",
+      "acceptance": "No connector segment intersects an unrelated cell or label interior."
+    },
+    {
+      "category": "connector-path-through-object",
+      "severity": "hard",
+      "objects": [
+        "2i0BFrOsrDYo9ZeF6Yqb-20",
+        "2i0BFrOsrDYo9ZeF6Yqb-18"
+      ],
+      "evidence": "The rendered route of '2i0BFrOsrDYo9ZeF6Yqb-20' passes through the interior of unrelated cell '2i0BFrOsrDYo9ZeF6Yqb-18'.",
+      "correction": "Move the cell or reroute the edge with explicit entry/exit points and waypoints in a reserved connector lane.",
+      "acceptance": "No connector segment intersects an unrelated cell or label interior."
+    },
+    {
+      "category": "connector-path-through-object",
+      "severity": "hard",
+      "objects": [
+        "2i0BFrOsrDYo9ZeF6Yqb-21",
+        "2i0BFrOsrDYo9ZeF6Yqb-18"
+      ],
+      "evidence": "The rendered route of '2i0BFrOsrDYo9ZeF6Yqb-21' passes through the interior of unrelated cell '2i0BFrOsrDYo9ZeF6Yqb-18'.",
+      "correction": "Move the cell or reroute the edge with explicit entry/exit points and waypoints in a reserved connector lane.",
+      "acceptance": "No connector segment intersects an unrelated cell or label interior."
+    },
+    {
+      "category": "connector-path-through-object",
+      "severity": "hard",
+      "objects": [
+        "2i0BFrOsrDYo9ZeF6Yqb-24",
+        "2i0BFrOsrDYo9ZeF6Yqb-18"
+      ],
+      "evidence": "The rendered route of '2i0BFrOsrDYo9ZeF6Yqb-24' passes through the interior of unrelated cell '2i0BFrOsrDYo9ZeF6Yqb-18'.",
+      "correction": "Move the cell or reroute the edge with explicit entry/exit points and waypoints in a reserved connector lane.",
+      "acceptance": "No connector segment intersects an unrelated cell or label interior."
+    },
+    {
+      "category": "connector-path-through-object",
+      "severity": "hard",
+      "objects": [
+        "2i0BFrOsrDYo9ZeF6Yqb-27",
+        "2i0BFrOsrDYo9ZeF6Yqb-26"
+      ],
+      "evidence": "The rendered route of '2i0BFrOsrDYo9ZeF6Yqb-27' passes through the interior of unrelated cell '2i0BFrOsrDYo9ZeF6Yqb-26'.",
+      "correction": "Move the cell or reroute the edge with explicit entry/exit points and waypoints in a reserved connector lane.",
+      "acceptance": "No connector segment intersects an unrelated cell or label interior."
+    },
+    {
+      "category": "connector-path-through-object",
+      "severity": "hard",
+      "objects": [
+        "2i0BFrOsrDYo9ZeF6Yqb-28",
+        "2i0BFrOsrDYo9ZeF6Yqb-26"
+      ],
+      "evidence": "The rendered route of '2i0BFrOsrDYo9ZeF6Yqb-28' passes through the interior of unrelated cell '2i0BFrOsrDYo9ZeF6Yqb-26'.",
+      "correction": "Move the cell or reroute the edge with explicit entry/exit points and waypoints in a reserved connector lane.",
+      "acceptance": "No connector segment intersects an unrelated cell or label interior."
+    },
+    {
+      "category": "connector-path-through-object",
+      "severity": "hard",
+      "objects": [
+        "2i0BFrOsrDYo9ZeF6Yqb-29",
+        "2i0BFrOsrDYo9ZeF6Yqb-26"
+      ],
+      "evidence": "The rendered route of '2i0BFrOsrDYo9ZeF6Yqb-29' passes through the interior of unrelated cell '2i0BFrOsrDYo9ZeF6Yqb-26'.",
+      "correction": "Move the cell or reroute the edge with explicit entry/exit points and waypoints in a reserved connector lane.",
+      "acceptance": "No connector segment intersects an unrelated cell or label interior."
+    },
+    {
+      "category": "connector-path-through-object",
+      "severity": "hard",
+      "objects": [
+        "2i0BFrOsrDYo9ZeF6Yqb-32",
+        "2i0BFrOsrDYo9ZeF6Yqb-26"
+      ],
+      "evidence": "The rendered route of '2i0BFrOsrDYo9ZeF6Yqb-32' passes through the interior of unrelated cell '2i0BFrOsrDYo9ZeF6Yqb-26'.",
+      "correction": "Move the cell or reroute the edge with explicit entry/exit points and waypoints in a reserved connector lane.",
+      "acceptance": "No connector segment intersects an unrelated cell or label interior."
+    },
+    {
+      "category": "repeated-series-misalignment",
+      "severity": "hard",
+      "objects": [
+        "entry-label-0",
+        "entry-label-1",
+        "entry-label-2",
+        "entry-label-3",
+        "entry-label-4",
+        "entry-label-5",
+        "entry-label-6",
+        "entry-label-7",
+        "entry-label-8",
+        "entry-label-9",
+        "entry-label-10",
+        "entry-label-11"
+      ],
+      "evidence": "Repeated series 'entry-label-*' has cross-axis spread 960, above the alignment tolerance.",
+      "correction": "Use drawio_live_align_cells on the repeated objects, preserving the planned outer bounds.",
+      "acceptance": "Cross-axis edges are equal within the alignment tolerance."
+    },
+    {
+      "category": "repeated-series-unequal-spacing",
+      "severity": "warning",
+      "objects": [
+        "entry-label-0",
+        "entry-label-1",
+        "entry-label-2",
+        "entry-label-3",
+        "entry-label-4",
+        "entry-label-5",
+        "entry-label-6",
+        "entry-label-7",
+        "entry-label-8",
+        "entry-label-9",
+        "entry-label-10",
+        "entry-label-11"
+      ],
+      "evidence": "Repeated series 'entry-label-*' gap spread is 330.",
+      "correction": "Use drawio_live_distribute_cells or exact coordinates after fixing the outer endpoints.",
+      "acceptance": "Repeated gaps differ by no more than twice the alignment tolerance."
+    },
+    {
+      "category": "repeated-series-misalignment",
+      "severity": "hard",
+      "objects": [
+        "2i0BFrOsrDYo9ZeF6Yqb-1",
+        "2i0BFrOsrDYo9ZeF6Yqb-2",
+        "2i0BFrOsrDYo9ZeF6Yqb-6",
+        "2i0BFrOsrDYo9ZeF6Yqb-7",
+        "2i0BFrOsrDYo9ZeF6Yqb-9",
+        "2i0BFrOsrDYo9ZeF6Yqb-10",
+        "2i0BFrOsrDYo9ZeF6Yqb-14",
+        "2i0BFrOsrDYo9ZeF6Yqb-15",
+        "2i0BFrOsrDYo9ZeF6Yqb-17",
+        "2i0BFrOsrDYo9ZeF6Yqb-18",
+        "2i0BFrOsrDYo9ZeF6Yqb-22",
+        "2i0BFrOsrDYo9ZeF6Yqb-23",
+        "2i0BFrOsrDYo9ZeF6Yqb-25",
+        "2i0BFrOsrDYo9ZeF6Yqb-26",
+        "2i0BFrOsrDYo9ZeF6Yqb-30",
+        "2i0BFrOsrDYo9ZeF6Yqb-31",
+        "2i0BFrOsrDYo9ZeF6Yqb-33",
+        "2i0BFrOsrDYo9ZeF6Yqb-34",
+        "2i0BFrOsrDYo9ZeF6Yqb-35",
+        "2i0BFrOsrDYo9ZeF6Yqb-36",
+        "2i0BFrOsrDYo9ZeF6Yqb-37",
+        "2i0BFrOsrDYo9ZeF6Yqb-38",
+        "2i0BFrOsrDYo9ZeF6Yqb-39",
+        "2i0BFrOsrDYo9ZeF6Yqb-40",
+        "2i0BFrOsrDYo9ZeF6Yqb-41",
+        "2i0BFrOsrDYo9ZeF6Yqb-42",
+        "2i0BFrOsrDYo9ZeF6Yqb-43",
+        "2i0BFrOsrDYo9ZeF6Yqb-44",
+        "2i0BFrOsrDYo9ZeF6Yqb-45",
+        "2i0BFrOsrDYo9ZeF6Yqb-49",
+        "2i0BFrOsrDYo9ZeF6Yqb-50",
+        "2i0BFrOsrDYo9ZeF6Yqb-51",
+        "2i0BFrOsrDYo9ZeF6Yqb-52",
+        "2i0BFrOsrDYo9ZeF6Yqb-53",
+        "2i0BFrOsrDYo9ZeF6Yqb-54",
+        "2i0BFrOsrDYo9ZeF6Yqb-55",
+        "2i0BFrOsrDYo9ZeF6Yqb-56",
+        "2i0BFrOsrDYo9ZeF6Yqb-57",
+        "2i0BFrOsrDYo9ZeF6Yqb-58",
+        "2i0BFrOsrDYo9ZeF6Yqb-59"
+      ],
+      "evidence": "Repeated series '2i0BFrOsrDYo9ZeF6Yqb-*' has cross-axis spread 1190, above the alignment tolerance.",
+      "correction": "Use drawio_live_align_cells on the repeated objects, preserving the planned outer bounds.",
+      "acceptance": "Cross-axis edges are equal within the alignment tolerance."
+    },
+    {
+      "category": "repeated-series-unequal-spacing",
+      "severity": "warning",
+      "objects": [
+        "2i0BFrOsrDYo9ZeF6Yqb-1",
+        "2i0BFrOsrDYo9ZeF6Yqb-2",
+        "2i0BFrOsrDYo9ZeF6Yqb-25",
+        "2i0BFrOsrDYo9ZeF6Yqb-26",
+        "2i0BFrOsrDYo9ZeF6Yqb-40",
+        "2i0BFrOsrDYo9ZeF6Yqb-41",
+        "2i0BFrOsrDYo9ZeF6Yqb-6",
+        "2i0BFrOsrDYo9ZeF6Yqb-30",
+        "2i0BFrOsrDYo9ZeF6Yqb-42",
+        "2i0BFrOsrDYo9ZeF6Yqb-7",
+        "2i0BFrOsrDYo9ZeF6Yqb-31",
+        "2i0BFrOsrDYo9ZeF6Yqb-9",
+        "2i0BFrOsrDYo9ZeF6Yqb-10",
+        "2i0BFrOsrDYo9ZeF6Yqb-33",
+        "2i0BFrOsrDYo9ZeF6Yqb-34",
+        "2i0BFrOsrDYo9ZeF6Yqb-43",
+        "2i0BFrOsrDYo9ZeF6Yqb-44",
+        "2i0BFrOsrDYo9ZeF6Yqb-35",
+        "2i0BFrOsrDYo9ZeF6Yqb-14",
+        "2i0BFrOsrDYo9ZeF6Yqb-45",
+        "2i0BFrOsrDYo9ZeF6Yqb-15",
+        "2i0BFrOsrDYo9ZeF6Yqb-17",
+        "2i0BFrOsrDYo9ZeF6Yqb-18",
+        "2i0BFrOsrDYo9ZeF6Yqb-36",
+        "2i0BFrOsrDYo9ZeF6Yqb-37",
+        "2i0BFrOsrDYo9ZeF6Yqb-49",
+        "2i0BFrOsrDYo9ZeF6Yqb-51",
+        "2i0BFrOsrDYo9ZeF6Yqb-50",
+        "2i0BFrOsrDYo9ZeF6Yqb-58",
+        "2i0BFrOsrDYo9ZeF6Yqb-59",
+        "2i0BFrOsrDYo9ZeF6Yqb-22",
+        "2i0BFrOsrDYo9ZeF6Yqb-23",
+        "2i0BFrOsrDYo9ZeF6Yqb-38",
+        "2i0BFrOsrDYo9ZeF6Yqb-39",
+        "2i0BFrOsrDYo9ZeF6Yqb-53",
+        "2i0BFrOsrDYo9ZeF6Yqb-52",
+        "2i0BFrOsrDYo9ZeF6Yqb-55",
+        "2i0BFrOsrDYo9ZeF6Yqb-54",
+        "2i0BFrOsrDYo9ZeF6Yqb-57",
+        "2i0BFrOsrDYo9ZeF6Yqb-56"
+      ],
+      "evidence": "Repeated series '2i0BFrOsrDYo9ZeF6Yqb-*' gap spread is 789.45.",
+      "correction": "Use drawio_live_distribute_cells or exact coordinates after fixing the outer endpoints.",
+      "acceptance": "Repeated gaps differ by no more than twice the alignment tolerance."
+    }
+  ],
+  "reviewer_contract": "Every hard finding must be converted by the Corrector into named geometry, routing, text-fit, or decomposition operations, executed by the Drawer, rerendered, and audited again."
+}

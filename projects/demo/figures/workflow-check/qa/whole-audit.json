@@ -1,0 +1,33 @@
+{
+  "backend": "drawio",
+  "page_size": {
+    "width": 827,
+    "height": 1169,
+    "visible": true
+  },
+  "object_counts": {
+    "total": 7,
+    "vertices": 4,
+    "edges": 3,
+    "pictures": 0,
+    "native_or_composite": 7
+  },
+  "picture_audit": [],
+  "hard_failure_count": 1,
+  "warning_count": 0,
+  "findings_truncated": false,
+  "passed": false,
+  "findings": [
+    {
+      "category": "outside-page",
+      "severity": "hard",
+      "objects": [
+        "export"
+      ],
+      "evidence": "Bounds [780,160,180,90] exceed the current 827 x 1169 draw.io page.",
+      "correction": "Move or resize the named cell inside the page, or explicitly change the planned page size.",
+      "acceptance": "Every visible object remains inside the intended page within the alignment tolerance."
+    }
+  ],
+  "reviewer_contract": "Every hard finding must be converted by the Corrector into named geometry, routing, text-fit, or decomposition operations, executed by the Drawer, rerendered, and audited again."
+}

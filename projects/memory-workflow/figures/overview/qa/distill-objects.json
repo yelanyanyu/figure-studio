@@ -1,0 +1,230 @@
+[
+  {
+    "type": "shape",
+    "id": "distill-step4",
+    "x": 489,
+    "y": 632,
+    "width": 355,
+    "height": 60,
+    "shape": "text",
+    "style": "shape=rectangle;rounded=0;fillColor=none;strokeColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=26;whiteSpace=wrap;html=1;fontColor=#000000;fontSize=26;fontStyle=3;align=left;verticalAlign=middle;spacing=0;",
+    "label": "Step4: Distill env-invariant<br>skills from clusters"
+  },
+  {
+    "type": "shape",
+    "id": "distill-bg",
+    "x": 470,
+    "y": 695,
+    "width": 1013,
+    "height": 303,
+    "shape": "rectangle",
+    "style": "shape=rectangle;rounded=0;fillColor=#EEDBF2;strokeColor=#B43FCE;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;whiteSpace=wrap;html=1;"
+  },
+  {
+    "type": "shape",
+    "id": "distill-cloud-container",
+    "x": 478,
+    "y": 724,
+    "width": 999,
+    "height": 265,
+    "shape": "cloud",
+    "style": "shape=cloud;rounded=0;fillColor=#E5C2EB;strokeColor=#B43FCE;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;whiteSpace=wrap;html=1;"
+  },
+  {
+    "type": "shape",
+    "id": "distill-layer-band",
+    "x": 470,
+    "y": 695,
+    "width": 305,
+    "height": 46,
+    "shape": "rectangle",
+    "style": "shape=rectangle;rounded=0;fillColor=#31589A;strokeColor=none;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;whiteSpace=wrap;html=1;"
+  },
+  {
+    "type": "shape",
+    "id": "distill-layer-title",
+    "x": 485,
+    "y": 700,
+    "width": 291,
+    "height": 35,
+    "shape": "text",
+    "style": "shape=rectangle;rounded=0;fillColor=none;strokeColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=26;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fontSize=26;fontStyle=1;align=left;verticalAlign=middle;spacing=0;",
+    "label": "Layer 2: Skill Distillation"
+  },
+  {
+    "type": "shape",
+    "id": "distill-b",
+    "x": 637,
+    "y": 771,
+    "width": 419,
+    "height": 86,
+    "shape": "ellipse",
+    "style": "shape=ellipse;rounded=0;fillColor=#EEDBF2;strokeColor=#7D29B0;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;whiteSpace=wrap;html=1;"
+  },
+  {
+    "type": "shape",
+    "id": "distill-b-label",
+    "x": 665,
+    "y": 781,
+    "width": 362,
+    "height": 68,
+    "shape": "text",
+    "style": "shape=rectangle;rounded=0;fillColor=none;strokeColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=26;whiteSpace=wrap;html=1;fontColor=#000000;fontSize=28;fontStyle=0;align=center;verticalAlign=middle;spacing=0;",
+    "label": "<b>Skill B:</b> refine the query<br>with more specific terms"
+  },
+  {
+    "type": "shape",
+    "id": "distill-a",
+    "x": 525,
+    "y": 847,
+    "width": 380,
+    "height": 86,
+    "shape": "ellipse",
+    "style": "shape=ellipse;rounded=0;fillColor=#EEDBF2;strokeColor=#7D29B0;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;whiteSpace=wrap;html=1;"
+  },
+  {
+    "type": "shape",
+    "id": "distill-a-label",
+    "x": 559,
+    "y": 857,
+    "width": 312,
+    "height": 68,
+    "shape": "text",
+    "style": "shape=rectangle;rounded=0;fillColor=none;strokeColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=26;whiteSpace=wrap;html=1;fontColor=#000000;fontSize=28;fontStyle=0;align=center;verticalAlign=middle;spacing=0;",
+    "label": "<b>Skill A:</b> first look<br>your surroundings..."
+  },
+  {
+    "type": "shape",
+    "id": "distill-c2",
+    "x": 1035,
+    "y": 782,
+    "width": 415,
+    "height": 86,
+    "shape": "ellipse",
+    "style": "shape=ellipse;rounded=0;fillColor=#EEDBF2;strokeColor=#7D29B0;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;whiteSpace=wrap;html=1;"
+  },
+  {
+    "type": "shape",
+    "id": "distill-c2-label",
+    "x": 1061,
+    "y": 791,
+    "width": 363,
+    "height": 68,
+    "shape": "text",
+    "style": "shape=rectangle;rounded=0;fillColor=none;strokeColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=26;whiteSpace=wrap;html=1;fontColor=#000000;fontSize=28;fontStyle=0;align=center;verticalAlign=middle;spacing=0;",
+    "label": "<b>Skill C2:</b> verify the<br>availability of the request.."
+  },
+  {
+    "type": "shape",
+    "id": "distill-c1",
+    "x": 852,
+    "y": 880,
+    "width": 397,
+    "height": 86,
+    "shape": "ellipse",
+    "style": "shape=ellipse;rounded=0;fillColor=#EEDBF2;strokeColor=#7D29B0;strokeWidth=2;fontFamily=Times New Roman;fontSize=26;whiteSpace=wrap;html=1;"
+  },
+  {
+    "type": "shape",
+    "id": "distill-c1-label",
+    "x": 880,
+    "y": 891,
+    "width": 343,
+    "height": 65,
+    "shape": "text",
+    "style": "shape=rectangle;rounded=0;fillColor=none;strokeColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=26;whiteSpace=wrap;html=1;fontColor=#000000;fontSize=28;fontStyle=0;align=center;verticalAlign=middle;spacing=0;",
+    "label": "<b>Skill C1:</b> verify user-<br>id and order status..."
+  },
+  {
+    "type": "edge",
+    "id": "distill-a-link",
+    "source": "cluster-a-container",
+    "target": "distill-a",
+    "color": "#9CC4E9",
+    "width": 1.4,
+    "end_arrow": "block",
+    "style": "edgeStyle=none;exitX=0.52;exitY=1;entryX=0.14;entryY=0.12;curved=1;dashed=1;dashPattern=4 3;strokeWidth=6;",
+    "waypoints": [
+      {
+        "x": 613,
+        "y": 688
+      },
+      {
+        "x": 583,
+        "y": 744
+      }
+    ]
+  },
+  {
+    "type": "edge",
+    "id": "distill-b-link",
+    "source": "cluster-b-container",
+    "target": "distill-b",
+    "color": "#9CC4E9",
+    "width": 1.4,
+    "end_arrow": "block",
+    "style": "edgeStyle=none;exitX=0.5;exitY=1;entryX=0.5;entryY=0;curved=1;dashed=1;dashPattern=4 3;strokeWidth=6;",
+    "waypoints": [
+      {
+        "x": 900,
+        "y": 678
+      },
+      {
+        "x": 851,
+        "y": 714
+      }
+    ]
+  },
+  {
+    "type": "edge",
+    "id": "distill-c1-link",
+    "source": "cluster-c1-container",
+    "target": "distill-c1",
+    "color": "#9CC4E9",
+    "width": 1.4,
+    "end_arrow": "block",
+    "style": "edgeStyle=none;exitX=0.51;exitY=1;entryX=0.5;entryY=0;curved=1;dashed=1;dashPattern=4 3;strokeWidth=6;",
+    "waypoints": [
+      {
+        "x": 1149,
+        "y": 695
+      },
+      {
+        "x": 1113,
+        "y": 752
+      },
+      {
+        "x": 1077,
+        "y": 765
+      },
+      {
+        "x": 1050,
+        "y": 847
+      }
+    ]
+  },
+  {
+    "type": "edge",
+    "id": "distill-c2-link",
+    "source": "cluster-c2-container",
+    "target": "distill-c2",
+    "color": "#9CC4E9",
+    "width": 1.4,
+    "end_arrow": "block",
+    "style": "edgeStyle=none;exitX=0.55;exitY=1;entryX=0.5;entryY=0;curved=1;dashed=1;dashPattern=4 3;strokeWidth=6;",
+    "waypoints": [
+      {
+        "x": 1375,
+        "y": 682
+      },
+      {
+        "x": 1287,
+        "y": 709
+      },
+      {
+        "x": 1247,
+        "y": 744
+      }
+    ]
+  }
+]

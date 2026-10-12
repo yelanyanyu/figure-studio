@@ -1,0 +1,120 @@
+{
+  "passed": true,
+  "figures": [
+    {
+      "figure": "components",
+      "passed": true,
+      "raster_count": 0,
+      "native_objects": 78,
+      "png_width": 2000,
+      "source_sha256": "10b6ccb3c59224f049e94d817eeb56673f8fd6a06cc09f542624d91f48f235df",
+      "checks": [
+        "live graph model audit",
+        "renderer screenshot reviewed",
+        "editable cells and connectors",
+        "saved source validation",
+        "export preview reviewed"
+      ],
+      "limitations": [
+        "Neutral template placeholders; adapt structure and verify scientific meaning in each figure."
+      ]
+    },
+    {
+      "figure": "process-flow",
+      "passed": true,
+      "raster_count": 0,
+      "native_objects": 20,
+      "png_width": 2000,
+      "source_sha256": "488be7fc9c7d3fffa0bdfd4d14e42a9db679d952fdfd37e5fe677ca6a68aeb2a",
+      "checks": [
+        "live graph model audit",
+        "renderer screenshot reviewed",
+        "editable cells and connectors",
+        "saved source validation",
+        "export preview reviewed"
+      ],
+      "limitations": [
+        "Neutral template placeholders; adapt structure and verify scientific meaning in each figure."
+      ]
+    },
+    {
+      "figure": "system-architecture",
+      "passed": true,
+      "raster_count": 0,
+      "native_objects": 29,
+      "png_width": 2000,
+      "source_sha256": "bf34d6563fb563097577815ab9aecba70c291822928c08c3bc83d79e9fd2e193",
+      "checks": [
+        "live graph model audit",
+        "renderer screenshot reviewed",
+        "editable cells and connectors",
+        "saved source validation",
+        "export preview reviewed"
+      ],
+      "limitations": [
+        "Neutral template placeholders; adapt structure and verify scientific meaning in each figure."
+      ]
+    },
+    {
+      "figure": "mechanism-relations",
+      "passed": true,
+      "raster_count": 0,
+      "native_objects": 15,
+      "png_width": 2000,
+      "source_sha256": "7e8d01738089505e40f490c460c858303929507ce9cf40fc3549e0ac6453cb3e",
+      "checks": [
+        "live graph model audit",
+        "renderer screenshot reviewed",
+        "editable cells and connectors",
+        "saved source validation",
+        "export preview reviewed"
+      ],
+      "limitations": [
+        "Neutral template placeholders; adapt structure and verify scientific meaning in each figure."
+      ]
+    },
+    {
+      "figure": "import-check",
+      "passed": true,
+      "raster_count": 0,
+      "native_objects": 71,
+      "png_width": 2000,
+      "source_sha256": "bb52eceb59ed819f56d955205db4cd4ed56e782c1d17ae52701997bf77f7b779",
+      "checks": [
+        "live graph model audit",
+        "renderer screenshot reviewed",
+        "editable cells and connectors",
+        "saved source validation",
+        "export preview reviewed"
+      ],
+      "limitations": [
+        "Neutral template placeholders; adapt structure and verify scientific meaning in each figure."
+      ]
+    },
+    {
+      "figure": "reuse-check",
+      "passed": true,
+      "raster_count": 0,
+      "native_objects": 20,
+      "png_width": 2000,
+      "source_sha256": "3ec25d35c20cadc9e7f77db436911ec8b9df5198d8386767e48221a3f082083f",
+      "checks": [
+        "live graph model audit",
+        "renderer screenshot reviewed",
+        "editable cells and connectors",
+        "saved source validation",
+        "export preview reviewed"
+      ],
+      "limitations": [
+        "Neutral template placeholders; adapt structure and verify scientific meaning in each figure."
+      ]
+    }
+  ],
+  "cli": {
+    "passed": true,
+    "cli_cases": 10,
+    "copy_isolation": true,
+    "no_asset_lock": true,
+    "overwrite_refused": true
+  }
+}

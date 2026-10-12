@@ -1,0 +1,9 @@
+{
+  "native_library_import": "12 entries loaded via LocalLibrary and ui.loadLibrary, then imported via ui.stringToCells and graph.importCells",
+  "description_edit": "Description -> Edited label in imported copy",
+  "template_edit": "Input / stage -> Local input",
+  "shared_template_unchanged": true,
+  "shared_source_sha256": "488be7fc9c7d3fffa0bdfd4d14e42a9db679d952fdfd37e5fe677ca6a68aeb2a",
+  "figure_source_differs": true,
+  "asset_copy_equal": true
+}

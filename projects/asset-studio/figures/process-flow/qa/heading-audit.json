@@ -1,0 +1,22 @@
+{
+  "backend": "drawio",
+  "page_size": {
+    "width": 1440,
+    "height": 900,
+    "visible": true
+  },
+  "object_counts": {
+    "total": 2,
+    "vertices": 2,
+    "edges": 0,
+    "pictures": 0,
+    "native_or_composite": 2
+  },
+  "picture_audit": [],
+  "hard_failure_count": 0,
+  "warning_count": 0,
+  "findings_truncated": false,
+  "passed": true,
+  "findings": [],
+  "reviewer_contract": "Every hard finding must be converted by the Corrector into named geometry, routing, text-fit, or decomposition operations, executed by the Drawer, rerendered, and audited again."
+}

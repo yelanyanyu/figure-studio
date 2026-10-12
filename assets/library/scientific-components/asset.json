@@ -1,0 +1,59 @@
+{
+  "id": "scientific-components",
+  "title": "Scientific editable components",
+  "library": "library.xml",
+  "source": "source.drawio",
+  "entries": [
+    {
+      "id": "trajectory-green",
+      "title": "Trajectory · green"
+    },
+    {
+      "id": "trajectory-blue",
+      "title": "Trajectory · blue"
+    },
+    {
+      "id": "trajectory-orange",
+      "title": "Trajectory · orange"
+    },
+    {
+      "id": "trajectory-purple",
+      "title": "Trajectory · purple"
+    },
+    {
+      "id": "cluster-container",
+      "title": "Cluster container"
+    },
+    {
+      "id": "description-card",
+      "title": "Description card"
+    },
+    {
+      "id": "section-title",
+      "title": "Section title"
+    },
+    {
+      "id": "dashed-region",
+      "title": "Dashed region"
+    },
+    {
+      "id": "flow-arrow",
+      "title": "Process / effect"
+    },
+    {
+      "id": "feedback-arrow",
+      "title": "Feedback (optional)"
+    },
+    {
+      "id": "association-line",
+      "title": "Association"
+    },
+    {
+      "id": "style-palette",
+      "title": "Style palette"
+    }
+  ],
+  "raster_count": 0,
+  "provenance": "Abstracted visual grammar from user-approved reference reconstruction; no research-specific content",
+  "copy_policy": "Independent figure copy; history in GitHub"
+}

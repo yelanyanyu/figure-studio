@@ -1,0 +1,158 @@
+{
+  "backend": "drawio live graph API",
+  "graph_ready": true,
+  "canvas": [
+    1986,
+    1018
+  ],
+  "object_counts": {
+    "total": 493,
+    "vertices": 297,
+    "edges": 196,
+    "pictures": 0,
+    "native_or_composite": 493
+  },
+  "region_audits": {
+    "init": {
+      "backend": "drawio",
+      "page_size": {
+        "width": 1986,
+        "height": 1018,
+        "visible": true
+      },
+      "object_counts": {
+        "total": 142,
+        "vertices": 77,
+        "edges": 65,
+        "pictures": 0,
+        "native_or_composite": 142
+      },
+      "picture_audit": [],
+      "hard_failure_count": 0,
+      "warning_count": 0,
+      "findings_truncated": false,
+      "passed": true,
+      "findings": [],
+      "reviewer_contract": "Every hard finding must be converted by the Corrector into named geometry, routing, text-fit, or decomposition operations, executed by the Drawer, rerendered, and audited again."
+    },
+    "cluster": {
+      "backend": "drawio",
+      "page_size": {
+        "width": 1986,
+        "height": 1018,
+        "visible": true
+      },
+      "object_counts": {
+        "total": 330,
+        "vertices": 187,
+        "edges": 143,
+        "pictures": 0,
+        "native_or_composite": 330
+      },
+      "picture_audit": [],
+      "hard_failure_count": 0,
+      "warning_count": 0,
+      "findings_truncated": false,
+      "passed": true,
+      "findings": [],
+      "reviewer_contract": "Every hard finding must be converted by the Corrector into named geometry, routing, text-fit, or decomposition operations, executed by the Drawer, rerendered, and audited again."
+    },
+    "distill": {
+      "backend": "drawio",
+      "page_size": {
+        "width": 1986,
+        "height": 1018,
+        "visible": true
+      },
+      "object_counts": {
+        "total": 347,
+        "vertices": 200,
+        "edges": 147,
+        "pictures": 0,
+        "native_or_composite": 347
+      },
+      "picture_audit": [],
+      "hard_failure_count": 0,
+      "warning_count": 0,
+      "findings_truncated": false,
+      "passed": true,
+      "findings": [],
+      "reviewer_contract": "Every hard finding must be converted by the Corrector into named geometry, routing, text-fit, or decomposition operations, executed by the Drawer, rerendered, and audited again."
+    },
+    "inference": {
+      "backend": "drawio",
+      "page_size": {
+        "width": 1986,
+        "height": 1018,
+        "visible": true
+      },
+      "object_counts": {
+        "total": 493,
+        "vertices": 297,
+        "edges": 196,
+        "pictures": 0,
+        "native_or_composite": 493
+      },
+      "picture_audit": [],
+      "hard_failure_count": 0,
+      "warning_count": 0,
+      "findings_truncated": false,
+      "passed": true,
+      "findings": [],
+      "reviewer_contract": "Every hard finding must be converted by the Corrector into named geometry, routing, text-fit, or decomposition operations, executed by the Drawer, rerendered, and audited again."
+    }
+  },
+  "whole_figure_audit": {
+    "backend": "drawio",
+    "page_size": {
+      "width": 1986,
+      "height": 1018,
+      "visible": true
+    },
+    "object_counts": {
+      "total": 493,
+      "vertices": 297,
+      "edges": 196,
+      "pictures": 0,
+      "native_or_composite": 493
+    },
+    "picture_audit": [],
+    "hard_failure_count": 0,
+    "warning_count": 0,
+    "findings_truncated": false,
+    "passed": true,
+    "findings": [],
+    "reviewer_contract": "Every hard finding must be converted by the Corrector into named geometry, routing, text-fit, or decomposition operations, executed by the Drawer, rerendered, and audited again."
+  },
+  "raster": [],
+  "reviewer": {
+    "semantic_text_accuracy": 1,
+    "editability": 1,
+    "geometry_alignment": 0.96,
+    "connector_clarity": 0.96,
+    "clipping_safety": 1,
+    "reference_correspondence": 0.91,
+    "basis": "Current live renderer plus deterministic model inspection. Reference coordinates retained for panels/text/icon motifs. Decorative brain/globe rebuilt as editable primitives; cloud contour approximated by native cloud; distillation A route and C2 spacing adjusted to avoid text intersections.",
+    "source_ambiguity": "Preserved source spelling Succes.. and trailing dots in skill text.",
+    "limitations": [
+      "Scores are reviewer judgments, not automated image similarity metrics.",
+      "Native cloud contour and brain/globe outline are approximate editable reconstructions."
+    ]
+  },
+  "save_status": "saved, validated, exported, and reopened in live graph",
+  "group_count": 43,
+  "primitive_vertex_count": 254,
+  "export": {
+    "png_width": 2000,
+    "png_height": 1027,
+    "source_sha256": "2603116f810d76dde7cb649f224f883af6a7072b3a4b4c09396e54a919c3c920"
+  },
+  "file_normalization": {
+    "nested_cell_ids_added": 156,
+    "page_dimensions_persisted": [
+      1986,
+      1018
+    ],
+    "reopen_graph_verified": true
+  }
+}

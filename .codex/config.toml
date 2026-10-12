@@ -1,0 +1,11 @@
+[mcp_servers.drawio-live]
+command = "/Users/yelanyanyu/.nvm/versions/node/v24.21.0/bin/node"
+args = ["/Users/yelanyanyu/code/figure-studio/scripts/run-mcp.mjs", "live"]
+startup_timeout_sec = 30
+tool_timeout_sec = 120
+
+[mcp_servers.drawio-file-utils]
+command = "/Users/yelanyanyu/.nvm/versions/node/v24.21.0/bin/node"
+args = ["/Users/yelanyanyu/code/figure-studio/scripts/run-mcp.mjs", "files"]
+startup_timeout_sec = 30
+tool_timeout_sec = 120

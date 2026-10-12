@@ -1,0 +1,19 @@
+{
+  "id": "system-architecture",
+  "title": "System architecture",
+  "source": "source.drawio",
+  "canvas": {
+    "width": 1440,
+    "height": 900
+  },
+  "editable": true,
+  "raster_count": 0,
+  "regions": [
+    "heading",
+    "intro",
+    "interfaces",
+    "modules",
+    "stores"
+  ],
+  "copy_policy": "Independent local copy; history in GitHub; no asset lock"
+}

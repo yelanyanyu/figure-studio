@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "raster_count": 0,
+  "native_objects": 20,
+  "png_width": 2000,
+  "source_sha256": "488be7fc9c7d3fffa0bdfd4d14e42a9db679d952fdfd37e5fe677ca6a68aeb2a",
+  "checks": [
+    "live graph model audit",
+    "renderer screenshot reviewed",
+    "editable cells and connectors",
+    "saved source validation",
+    "export preview reviewed"
+  ],
+  "limitations": [
+    "Neutral template placeholders; adapt structure and verify scientific meaning in each figure."
+  ]
+}

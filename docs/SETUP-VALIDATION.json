@@ -1,0 +1,110 @@
+{
+  "checkedAt": "2026-10-12T07:54:57.408919+00:00",
+  "drawio": "/Applications/draw.io.app/Contents/MacOS/draw.io",
+  "liveGraphReady": true,
+  "editableVertices": 4,
+  "editableEdges": 3,
+  "regionAudit": {
+    "backend": "drawio",
+    "page_size": {
+      "width": 827,
+      "height": 1169,
+      "visible": true
+    },
+    "object_counts": {
+      "total": 7,
+      "vertices": 4,
+      "edges": 3,
+      "pictures": 0,
+      "native_or_composite": 7
+    },
+    "picture_audit": [],
+    "hard_failure_count": 0,
+    "warning_count": 0,
+    "findings_truncated": false,
+    "passed": true,
+    "findings": [],
+    "reviewer_contract": "Every hard finding must be converted by the Corrector into named geometry, routing, text-fit, or decomposition operations, executed by the Drawer, rerendered, and audited again."
+  },
+  "wholeAudit": {
+    "backend": "drawio",
+    "page_size": {
+      "width": 827,
+      "height": 1169,
+      "visible": true
+    },
+    "object_counts": {
+      "total": 7,
+      "vertices": 4,
+      "edges": 3,
+      "pictures": 0,
+      "native_or_composite": 7
+    },
+    "picture_audit": [],
+    "hard_failure_count": 0,
+    "warning_count": 0,
+    "findings_truncated": false,
+    "passed": true,
+    "findings": [],
+    "reviewer_contract": "Every hard finding must be converted by the Corrector into named geometry, routing, text-fit, or decomposition operations, executed by the Drawer, rerendered, and audited again."
+  },
+  "visualReview": "Chinese glyphs, equal spacing, connector direction and bounds checked in live renderer and exported PNG. Environment example only.",
+  "exports": [
+    {
+      "path": "exports/demo/workflow-check/workflow-check.png",
+      "sha256": "d9d1f2c312c857f16dce6abd10c80cf2dd1b6812c003abdbc447be7de32e58b2",
+      "result": {
+        "input_path": "/Users/yelanyanyu/code/figure-studio/projects/demo/figures/workflow-check/source.drawio",
+        "output_path": "/Users/yelanyanyu/code/figure-studio/exports/demo/workflow-check/workflow-check.png",
+        "format": "png",
+        "embed": false,
+        "repaired_png_iend": false,
+        "bytes": 57182,
+        "drawio_output": "/Users/yelanyanyu/code/figure-studio/projects/demo/figures/workflow-check/source.drawio -> /Users/yelanyanyu/code/figure-studio/exports/demo/workflow-check/workflow-check.png"
+      }
+    },
+    {
+      "path": "exports/demo/workflow-check/workflow-check.svg",
+      "sha256": "f39a7618d6b952744ecd23a038779d8271808b7d01cb801bf7852b70e1d9acff",
+      "result": {
+        "input_path": "/Users/yelanyanyu/code/figure-studio/projects/demo/figures/workflow-check/source.drawio",
+        "output_path": "/Users/yelanyanyu/code/figure-studio/exports/demo/workflow-check/workflow-check.svg",
+        "format": "svg",
+        "embed": false,
+        "repaired_png_iend": false,
+        "bytes": 42516,
+        "drawio_output": "/Users/yelanyanyu/code/figure-studio/projects/demo/figures/workflow-check/source.drawio -> /Users/yelanyanyu/code/figure-studio/exports/demo/workflow-check/workflow-check.svg"
+      }
+    },
+    {
+      "path": "exports/demo/workflow-check/workflow-check.pdf",
+      "sha256": "2131c30d34c6d1004826a3c2369a9759b8be20a398bd82b7c3c05eb130b6d747",
+      "result": {
+        "input_path": "/Users/yelanyanyu/code/figure-studio/projects/demo/figures/workflow-check/source.drawio",
+        "output_path": "/Users/yelanyanyu/code/figure-studio/exports/demo/workflow-check/workflow-check.pdf",
+        "format": "pdf",
+        "embed": false,
+        "repaired_png_iend": false,
+        "bytes": 21759,
+        "drawio_output": "/Users/yelanyanyu/code/figure-studio/projects/demo/figures/workflow-check/source.drawio -> /Users/yelanyanyu/code/figure-studio/exports/demo/workflow-check/workflow-check.pdf"
+      }
+    }
+  ],
+  "assetSnapshot": {
+    "assets": [
+      {
+        "id": "scientific-basic",
+        "version": "v1",
+        "path": "assets/scientific-basic-v1",
+        "files": {
+          "asset.json": "02e35f3ab2a7a319454095246968e5648637309e8203d45ee31715c0182afb94",
+          "tokens.json": "1b04ed6a6fb1202f34d54a093405306cdd2b2ca5feb644b486637abd76a7eb85"
+        }
+      }
+    ]
+  },
+  "upstreamFilesCompared": 49,
+  "upstreamModified": false,
+  "skillLinksResolved": 5,
+  "agentToolAvailability": "Project config written; current chat has not loaded these services. Open this workspace as a trusted project and start a new chat. Direct stdio MCP clients tested both services."
+}
